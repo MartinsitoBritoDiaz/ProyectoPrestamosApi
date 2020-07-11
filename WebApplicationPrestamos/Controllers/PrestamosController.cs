@@ -28,7 +28,6 @@ namespace WebApplicationPrestamos.Controllers
             return PrestamosBLL.GetPrestamo();
         }
 
-
         // POST api/<PrestamosController>
         [HttpPost]
         public void Post([FromBody] Prestamos Prestamo)
